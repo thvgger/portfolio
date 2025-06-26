@@ -60,7 +60,7 @@ export default function Home() {
           <p className="text-lg md:text-xl max-w-2xl mb-8 drop-shadow-md md:text-black font-bold">
             Dive into the digital realm with cutting-edge technology.
           </p>
-          <Shadow className="px-8 py-4 bg-white hover:bg-blue-700 text-black font-bold rounded-full transition duration-300 ease-in-out">
+          <Shadow className="px-8 py-4 bg-white hover:bg text-black font-bold rounded-full transition duration-300 ease-in-out">
             <a>
               Get Started
             </a>

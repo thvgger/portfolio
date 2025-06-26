@@ -55,10 +55,10 @@ export default function Home() {
       <div className="relative z-10 min-h-screen pt-24"> 
         <div className="flex flex-col items-center justify-center min-h-[calc(100vh-6rem)] text-white text-center p-4">
           <h1 className="text-5xl md:text-7xl font-extrabold mb-4 drop-shadow-lg md:text-black">
-            Cybernetic Future
+            Ìjáyà
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mb-8 drop-shadow-md md:text-black font-bold">
-            Dive into the digital realm with cutting-edge technology.
+            Experience the next generation of African storytelling in gaming.
           </p>
           <Shadow className="px-8 py-4 bg-white hover:bg text-black font-bold rounded-full transition duration-300 ease-in-out">
             <a>

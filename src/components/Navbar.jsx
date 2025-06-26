@@ -35,7 +35,7 @@ export const components = [
   },
   {
     id: "component-3",
-    title: "Pricing",
+    title: "Team",
   },
   {
     id: "component-4",

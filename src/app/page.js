@@ -62,7 +62,10 @@ export default function Home() {
         {/* Hero Section (Existing) */}
         <section className="min-h-screen pt-24 flex items-center justify-center bg-transparent">
           <div className="flex flex-col items-center justify-center text-center p-4 max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-7xl font-extrabold mb-4 drop-shadow-lg text-white md:text-black">
+            <h1 className="line-m md:hidden text-5xl md:text-7xl font-extrabold mb-4 text-white md:text-lime-200 ">
+              Showcase Your Game. Find Your Players.
+            </h1>
+            <h1 className="line max-md:hidden text-5xl md:text-7xl font-extrabold mb-4 text-white md:text-lime-200 ">
               Showcase Your Game. Find Your Players.
             </h1>
             <p className="text-lg md:text-xl max-w-2xl mb-8 drop-shadow-md text-white md:text-black font-bold">
@@ -79,7 +82,10 @@ export default function Home() {
         {/* Featured Games Section */}
         <section className="py-20 px-4 md:px-8 bg-black/70 md:bg-white/90 text-white md:text-black">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
+            <h2 className="line-m md:hidden text-4xl md:text-6xl font-bold text-center mb-12 text-lime-200">
+              Featured Games
+            </h2>
+            <h2 className="line-1 max-md:hidden text-4xl md:text-6xl font-bold text-center mb-12 text-lime-200">
               Featured Games
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

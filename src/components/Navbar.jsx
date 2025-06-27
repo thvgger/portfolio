@@ -86,12 +86,12 @@ export default function Navbar() {
     <NavigationMenu viewport={false}>
       <NavigationMenuList>
         {components.map((component) => (
-          <NavigationMenuItem key={component.id}>
+          <NavigationMenuItem key={component.id} >
             {component.subItems ? (
               <>
                 <NavigationMenuTrigger>{component.title}</NavigationMenuTrigger>
-                <NavigationMenuContent>
-                  <ul className="grid w-[400px] gap-2 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                <NavigationMenuContent >
+                  <ul className="grid w-[400px] gap-2 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
                     {component.subItems.map((item) => (
                       <ListItem
                         key={item.title}
@@ -105,7 +105,7 @@ export default function Navbar() {
                 </NavigationMenuContent>
               </>
             ) : component.href ? (
-              <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+              <NavigationMenuLink asChild className={navigationMenuTriggerStyle() } >
                 <Link href={component.href}>{component.title}</Link>
               </NavigationMenuLink>
             ) : (
@@ -123,9 +123,9 @@ export default function Navbar() {
 function ListItem({ title, children, href, ...props }) {
   return (
     <li {...props}>
-      <NavigationMenuLink asChild>
+      <NavigationMenuLink asChild >
         <Link href={href}>
-          <div className="text-sm leading-none font-medium">{title}</div>
+          <div className="text-sm leading-none font-medium ">{title}</div>
           <p className="text-muted-foreground line-clamp-2 text-sm leading-snug">
             {children}
           </p>
